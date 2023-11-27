@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Divisor = ({text}) => {
+const Divisor = ({text=''}) => {
   return (
     <div className='w-full h-full'>
           <div className="flex justify-center items-center m-1 font-medium py-1 px-2  text-purple-300  ">
