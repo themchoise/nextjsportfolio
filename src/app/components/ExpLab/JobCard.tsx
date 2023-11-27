@@ -16,6 +16,7 @@ const JobCard = ({year_start,year_end,company,job_details,job_techs}:IJobHistory
  
     return (
         <div className="max-w-sm rounded overflow-hidden shadow-lg bg-[#1b1e23] ">
+          <sub className="text-xl ">{year_start} - {year_end?year_end:'Actualidad'}</sub>
        
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2">{company}</div>
