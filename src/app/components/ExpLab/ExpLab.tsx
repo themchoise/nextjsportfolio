@@ -4,10 +4,10 @@ import JobCard from './JobCard';
 
 const ExpLab = () => {
   return (
-    <div className=''>
-    <article className="bg-dark-graf-nav text-white  shadow-[0px_0px_0px_0.2px_#f7fafc] ">
 
-      <div className='flex justify-center space-x-5'>
+    <article className=" text-white  m-2">
+    <div className="min-w-full container mx-auto ">
+    <div className="flex flex-wrap p-3 justify-center xl:space-x-10 ">
     {jobHistory.map( (job, index : number) => (
     <JobCard
       key = {index}
@@ -20,8 +20,9 @@ const ExpLab = () => {
     ) )}
     
     </div>
-    </article>
     </div>
+    </article>
+    
   )
 }
 export default ExpLab

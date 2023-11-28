@@ -6,8 +6,8 @@ import Image from 'next/image'
   return (
     <>
     
-    <article className=" ">
-    <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-2">
+    
+    <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-2 bg-r">
     <div className="text-cyan-50 text-justify m-2 shadow-[0px_0px_0px_0.2px_#f7fafc]  bg-dark-graf-nav p-5">
         {aboutme}
     </div>
@@ -22,7 +22,7 @@ import Image from 'next/image'
     </div>
     </div>
    
-    </article>
+    
     
     </>
   )

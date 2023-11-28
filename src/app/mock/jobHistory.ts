@@ -91,7 +91,7 @@ export const returnAllSkills = ():Array<string> => {
             newArr.push(elminter)
         }
     }
-    console.log(newArr)
+   
     return [...new Set(newArr)]
 
 }

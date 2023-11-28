@@ -11,8 +11,9 @@ const expl:string = 'Experiencia Laboral' || ''
 const sk:string = 'Skills' || ''
 
   return (
-    <main className="flex flex-col space-y-4 min-h-screen min-w-full bg-dark-graf-bgmain ml p-3">
+    <main className="flex flex-col spa space-y-4 min-h-screen min-w-full bg-dark-graf-bgmain ml p-3">
     <NavBar/>
+    <p className="text-white text-center">*** SITIO EN CONSTRUCCION ***</p>
     
     <AboutMe/>
     <Divisor text={expl}/>
