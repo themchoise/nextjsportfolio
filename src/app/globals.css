@@ -8,3 +8,11 @@
     font-family: "Proxima Nova", system-ui, sans-serif;
     
   }
+  @keyframes colorChange {
+    0% {
+      border-color: #3498db; /* Initial color (blue) */
+    }
+    100% {
+      border-color: #e74c3c; /* Final color (red) */
+    }
+  }
