@@ -29,6 +29,8 @@ const FORTIGATE: string = 'Fortigate'
 const WINDOWSSERVER: string = 'Windows Server'
 const UBUNTUSERVER: string = 'Ubuntu Server'
 
+
+
 export interface IJobHistory{
     year_start: number
     year_end?: number | ''
@@ -91,8 +93,10 @@ export const returnAllSkills = ():Array<string> => {
             newArr.push(elminter)
         }
     }
-   
+  
     return [...new Set(newArr)]
+
+
 
 }
 
