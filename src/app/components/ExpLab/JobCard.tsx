@@ -21,9 +21,8 @@ const JobCard = ({year_start,year_end,company,job_details,job_techs}:IJobHistory
  
     return (
 
-        <div className={`my-2 py-3 px-3 mx-1 w-full md:w-1/3 lg:my-4 lg:px-4 lg:w-1/4    hover:shadow-[0px_0px_0px_2px_${effect}] transition duration-500 ease-in-out m-2 shadow-[0px_0px_0px_0.2px_#f7fafc] bg-[#1b1e23] overflow-hidden`}
-        onMouseEnter={() => {fnTime()}}
-        onMouseLeave={() => {fnTime('#0B6B95')}}
+        <div className={`my-2 py-3 px-3 mx-1 w-full md:w-1/3 lg:my-4 lg:px-4 lg:w-1/4    hover:shadow-[0px_0px_0px_2px_#0B6B95] transition duration-500 ease-in-out m-2 shadow-[0px_0px_0px_0.2px_#f7fafc] bg-[#1b1e23] overflow-hidden`}
+  
         >
           <sub className="text-xl p-2 ">{year_start} - {year_end?year_end:'Actualidad'}</sub>
        

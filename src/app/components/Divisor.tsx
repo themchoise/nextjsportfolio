@@ -4,7 +4,7 @@ const Divisor = ({text=''}) => {
   return (
     <div className='w-full h-full'>
           <div className="flex justify-center items-center m-1 font-medium py-1 px-2  text-purple-300  ">
-            <div className="text-xl font-normal bg-slate-700 border-gray-50;  p-3  leading-none max-w-full flex-initial">{text}</div>
+            <div className="text-xl font-normal bg-none border-gray-50;  p-3  leading-none max-w-full flex-initial">{text}</div>
         </div>
     </div>
   )
