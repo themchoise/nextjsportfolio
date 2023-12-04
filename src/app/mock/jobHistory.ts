@@ -28,6 +28,7 @@ const MIKROTIK: string = 'Mikrotik'
 const FORTIGATE: string = 'Fortigate'
 const WINDOWSSERVER: string = 'Windows Server'
 const UBUNTUSERVER: string = 'Ubuntu Server'
+const DOCKER: string = 'Docker'
 
 
 
@@ -46,7 +47,7 @@ const jobHistory:IJobHistory[] = [
         year_end: '',
         company: 'Gestion de EMP. DEP.',
         job_details: 'NODEJS PYTHON DEV',
-        job_techs: [NODEJS, JAVASCRIPT, REACT, NEXTJX, TYPESCRIPT, SEQUALIZE, PYTHON, DJAngo, FLASK]
+        job_techs: [NODEJS, JAVASCRIPT, REACT, NEXTJX, TYPESCRIPT, SEQUALIZE, PYTHON, DJAngo, FLASK, DOCKER]
     },
     {
         year_start: 2023,
@@ -59,7 +60,7 @@ const jobHistory:IJobHistory[] = [
         year_start: 2022,
         year_end: 2022,
         company: 'CoderHouse',
-        job_details: 'Tareas a desarrollar: Dictado de clases especiales ( clases de refuerzo ).Seguimiento a estudiantes.Corrección de desafíos.Resolución de consultas.',
+        job_details: 'Tutoria Curso SQL',
         job_techs: [MYSQL]
     },
     {
