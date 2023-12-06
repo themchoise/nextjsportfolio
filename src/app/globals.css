@@ -3,9 +3,13 @@
 @tailwind utilities;
 
   html{
-    font-size: 18px;
-    font-weight: normal;
-    
+    font-size: 15px;
+    font-weight: small;
+    background-color: #111217;
+        
+  }
+  body{
+    padding: 30px;
   }
 
 
