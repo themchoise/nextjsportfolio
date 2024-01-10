@@ -31,8 +31,8 @@ export const Formation = () => {
 
   return (
     <>
-      <div className="flex  justify-center items-center w-full  ">
-        <table className="md:table-fixed    text-white w-auto">
+      <div id="formation" className="flex  justify-center items-center w-full  ">
+        <table className="md:table-fixed overflow-auto   text-white w-auto">
           <thead>
             <tr className="text-cyan-600">
               <th onClick={() => handleSortClick("year_start")}>Inicio</th>

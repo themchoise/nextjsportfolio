@@ -7,7 +7,7 @@ const Skills = () => {
   
   return (
     <div>
-      <article className=" w-auto h-auto ">
+      <article id="skills" className=" w-auto h-auto ">
         <div className="flex flex-wrap items-center justify-center">
           {returnAllSkills().map((res, index) => {
             return (

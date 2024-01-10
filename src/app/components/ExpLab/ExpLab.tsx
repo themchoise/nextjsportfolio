@@ -5,7 +5,7 @@ import JobCard from './JobCard';
 const ExpLab = () => {
   return (
 
-    <article className=" text-white  m-2">
+    <article id='explab' className=" text-white  m-2 ">
     <div className="min-w-full container mx-auto ">
     <div className="flex flex-wrap p-3 justify-center xl:space-x-10 ">
     {jobHistory.map( (job, index : number) => (
