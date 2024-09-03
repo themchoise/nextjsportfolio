@@ -3,14 +3,16 @@
 @tailwind utilities;
 
   html{
-    font-size: 15px;
-    font-weight: small;
+    font-size: 18px;
+    
     background-color: #111217;
       scroll-behavior: smooth!important;
   
   }
   body{
-    padding: 30px;
+
+  margin-left: 12%;
+  margin-right: 12%;
   }
 
 

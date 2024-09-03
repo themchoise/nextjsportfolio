@@ -23,7 +23,7 @@ import { useBorderColor } from "../hooks/useBorderColor";
     >
     <Image 
       className ='object-contain'
-      src="/random1.jpg"
+      src="/random2.png"
       width={500}
       height={500}
       alt="Picture of the author"

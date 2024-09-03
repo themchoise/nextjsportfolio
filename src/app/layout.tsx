@@ -1,11 +1,11 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import { Roboto } from 'next/font/google';
+import { Handjet } from 'next/font/google';
 import localFont from 'next/font/local'
 
-//const roboto = Roboto({ subsets: ['latin'], weight:  ['100', '100']  })
+const roboto = Handjet({ subsets: ['latin'], weight:  ['400', '700']  })
 
-const myFont = localFont({ src: './font/Virgil.woff2'})
+//const myFont = localFont({ src: 'https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap'})
 
 export const metadata: Metadata = {
   title: 'Maximiliano Joyce Personal Site',
@@ -14,12 +14,12 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: {
+}: {  
   children: React.ReactNode
 }) {
   return (
     <html lang="en">
-      <body className={myFont.className}>{children}</body>
+      <body className={roboto.className}>{children}</body>
     </html>
   )
 }

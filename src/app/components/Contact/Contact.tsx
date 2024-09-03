@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Contact = () => {
   return (
-    <div className="w-full flex justify-center items-center space-x-5 p-3  h-13 text-white">
+    <div id='contact'  className="w-full flex justify-center items-center space-x-5 p-3  h-13 text-white">
 
 
       <div>

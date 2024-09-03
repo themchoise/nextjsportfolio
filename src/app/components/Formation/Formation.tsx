@@ -1,6 +1,9 @@
 "use client";
 import { useEffect, useState } from "react";
 import formationArr, { IFormation } from "../../mock/formation";
+import ArrowIcon from "../Icons/Arrrow";
+
+
 
 export const Formation = () => {
   const handleSort = (data: IFormation[] | any, sortBy: any) => {
@@ -29,19 +32,29 @@ export const Formation = () => {
     });
   };
 
+  const textWithIcon =(text:string) => {
+    return (<div className="flex items-center justify-center">
+      <p>{text} </p>
+      <ArrowIcon/>
+    </div>)
+  }
+
+
   return (
     <>
       <div id="formation" className="flex  justify-center items-center w-full  ">
-        <table className="md:table-fixed overflow-auto   text-white w-auto">
+        <table className="md:table-fixed overflow-auto   text-white w-full">
           <thead>
             <tr className="text-cyan-600">
-              <th onClick={() => handleSortClick("year_start")}>Inicio</th>
-              <th onClick={() => handleSortClick("year_end")}>Fin</th>
-              <th onClick={() => handleSortClick("academy")}>Academia</th>
+              <th className="" onClick={() => handleSortClick("year_start")}> 
+                {textWithIcon('Inicio')}
+                </th>
+              <th onClick={() => handleSortClick("year_end")}>  {textWithIcon('Fin')}</th>
+              <th onClick={() => handleSortClick("academy")}>{textWithIcon('Academia')}</th>
               <th>Titulacion</th>
-              <th onClick={() => handleSortClick("grade")}>Grado</th>
+              <th onClick={() => handleSortClick("grade")}>{textWithIcon('Grado')}</th>
               <th>Cred Id</th>
-              <th onClick={() => handleSortClick("cred_url")}>Cred URL</th>
+              <th onClick={() => handleSortClick("cred_url")}>{textWithIcon('Cred URL')}</th>
             </tr>
           </thead>
           <tbody>

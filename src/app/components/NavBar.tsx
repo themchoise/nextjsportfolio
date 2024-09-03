@@ -19,7 +19,7 @@ const NavBar = () => {
           <Link href="#formation" className='text-white'>
             Formacion
           </Link>
-          <Link href="#formation" className='text-white'>
+          <Link href="#contact" className='text-white'>
             Contacto
           </Link>
 

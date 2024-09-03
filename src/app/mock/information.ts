@@ -1,5 +1,5 @@
 const aboutme:string = `
-Apasionado técnico informático con más de 13 años de experiencia en el sector de IT. Mi trayectoria ha sido un viaje fascinante desde mis primeros días en el Help Desk hasta consolidarme como un desarrollador backend.
+ Mi trayectoria ha sido un viaje fascinante desde mis primeros días en el Help Desk hasta consolidarme como un desarrollador backend.
 
 Mi travesía comenzó en roles de soporte, donde perfeccioné mis habilidades en la resolución de problemas y la atención al cliente. Avanzando en mi carrera, asumí responsabilidades en el área de redes e infraestructura, donde contribuí al diseño y mantenimiento de entornos tecnológicos robustos.
 
