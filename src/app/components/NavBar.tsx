@@ -6,7 +6,7 @@ const NavBar = () => {
     <header>
       <div className="bg-dark-graf-nav h-auto shadow-[0px_0px_0px_0.2px_#f7fafc] m-2 ">
         <ul className="flex justify-center p-1">
-          <li className="mr-6  space-x-5 overflow-auto" >
+          <li className="mr-6  space-x-2 overflow-auto xl:space-x-8" >
           <Link href="#aboutme" className='text-white'>
             Sobre Mi
           </Link>

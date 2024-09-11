@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import { Handjet } from 'next/font/google';
+import { Handjet, Roboto_Mono } from 'next/font/google';
 import localFont from 'next/font/local'
 
-const roboto = Handjet({ subsets: ['latin'], weight:  ['400', '700']  })
+const roboto = Roboto_Mono({ subsets: ['latin'] })
 
 //const myFont = localFont({ src: 'https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap'})
 

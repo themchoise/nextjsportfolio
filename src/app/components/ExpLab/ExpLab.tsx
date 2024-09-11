@@ -1,13 +1,13 @@
 import React from 'react'
 import jobHistory from '../../mock/jobHistory'
 import JobCard from './JobCard';
-
+//sm:flex-wrap sm:justify-center sm:items-center md:flex flex-wrap 
 const ExpLab = () => {
   return (
 
     <article id='explab' className=" text-white">
-    <div className="min-w-full container mx-auto ">
-    <div className="flex space-x-3 ">
+    
+    <div className="xl:flex xl:justify-evenly md:flex md:flex-wrap md:justify-center   ">
     {jobHistory.map( (job, index : number) => (
     <JobCard
       key = {index}
@@ -20,7 +20,7 @@ const ExpLab = () => {
     ) )}
     
     </div>
-    </div>
+ 
     </article>
     
   )
