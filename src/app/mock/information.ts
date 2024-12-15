@@ -1,3 +1,4 @@
+/*
 const aboutme:string = `
  Mi trayectoria ha sido un viaje fascinante desde mis primeros días en el Help Desk hasta consolidarme como un desarrollador backend.
 
@@ -14,3 +15,11 @@ En mi tiempo libre, disfruto explorando nuevas tecnologías y contribuyendo a pr
 ¡Gracias por conocer un poco más sobre mí y mi trayectoria en el mundo de la tecnología!`
 
 export default aboutme;
+
+*/
+const aboutme:string = `
+Soy un desarrollador backend con una trayectoria diversa en tecnología, comenzando en soporte técnico, pasando por redes, infraestructura y administración de bases de datos, hasta consolidarme en el desarrollo de aplicaciones y servicios eficientes. `
+
+export default aboutme;
+
+

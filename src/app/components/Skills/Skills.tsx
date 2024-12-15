@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
 import FrontEnd from "./FrontEnd";
-import { returnAllSkills } from "@/app/mock/jobHistory";
+import { baseTech, returnAllSkills } from "@/app/mock/jobHistory";
+
 
 const Skills = () => {
   
@@ -9,7 +10,7 @@ const Skills = () => {
     <div>
       <article id="skills" className=" w-full h-auto bg-[#1b1e23]">
         <div className="flex flex-wrap items-center justify-evenly">
-          {returnAllSkills().map((res, index) => {
+          {baseTech.map((res, index) => {
             return (
               <div key={index} className=" hover:shadow-[0px_0px_0px_2px_#0B6B95] transition duration-500 ease-in-out  text-white rounded-full px-4 py-2 shadow-md m-3">
               <span className="flex items-center justify-center">

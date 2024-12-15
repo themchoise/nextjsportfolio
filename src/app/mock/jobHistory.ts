@@ -101,6 +101,8 @@ export const returnAllSkills = ():Array<string> => {
 
 }
 
+export const baseTech:Array<string> = [JAVASCRIPT, PYTHON, JAVA]
+
 
 export default jobHistory
 
