@@ -16,7 +16,7 @@ const AboutMe = () => {
         <div className=" flex items-center hover:shadow-[0px_0px_0px_2px_#0B6B95] transition duration-500 ease-in-out text-cyan-50  text-justify m-2 shadow-[0px_0px_0px_0.2px_#f7fafc]  bg-dark-graf-nav p-5"
         >
           <p>
-          {aboutme}
+            {aboutme}
           </p>
         </div>
         <div className={` hover:shadow-[0px_0px_0px_2px_#0B6B95] transition duration-500 ease-in-out m-2 shadow-[0px_0px_0px_0.2px_#f7fafc]  bg-dark-graf-nav flex justify-center p-5 	object-contain	`}

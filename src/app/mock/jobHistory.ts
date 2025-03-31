@@ -1,13 +1,14 @@
 const NODEJS  :string = 'NodeJs'
 const JAVASCRIPT :string = 'Javascript'
 const REACT :string = 'React'
-const NEXTJX :string = 'NextJs'
+const NEXTJS :string = 'NextJs'
 const TYPESCRIPT :string = 'TypeScript'
 const SEQUALIZE :string = 'Sequalize'
 const PYTHON :string = 'Python'
 const DJAngo :string = 'DJAngo'
 const FLASK :string = 'Flask'
 const JAVA :string = 'Java'
+const GO :string = 'GO'
 const SPRINGBOOT :string = 'SpringBoot'
 const SPRINGFRAMEWORK :string = 'Spring Framework'
 const SPRINGSECURITY :string = 'Spring Security'
@@ -43,17 +44,24 @@ export interface IJobHistory{
 
 const jobHistory:IJobHistory[] = [
     {
-        year_start: 2023,
+        year_start: 2025,
         year_end: '',
+        company: 'MercadoLibre',
+        job_details: 'Software Engineer | Backend Developer',
+        job_techs: [GO,JAVA  ]
+    },
+    {
+        year_start: 2023,
+        year_end: 2025,
         company: 'Gestion de EMP. DEP.',
-        job_details: 'NODEJS PYTHON DEV',
-        job_techs: [NODEJS, JAVASCRIPT, REACT, NEXTJX, TYPESCRIPT, SEQUALIZE, PYTHON, DJAngo, FLASK, DOCKER]
+        job_details: 'Full Stack Deveper',
+        job_techs: [JAVA, NODEJS, JAVASCRIPT, REACT, NEXTJS, TYPESCRIPT, SEQUALIZE, PYTHON , FLASK, DOCKER]
     },
     {
         year_start: 2023,
         year_end: 2022,
         company: 'EY',
-        job_details: 'JAVA DEV',
+        job_details: 'Backend Developer',
         job_techs: [JAVA, SPRINGBOOT, SPRINGFRAMEWORK, SPRINGSECURITY, JBOSS, WILDFLY, NODEJS, ELECTRONJS]
     },
     {
@@ -67,8 +75,8 @@ const jobHistory:IJobHistory[] = [
         year_start: 2021,
         year_end: 2022,
         company: 'Sportclub',
-        job_details: 'Web Developer Full Stack',
-        job_techs: [REACT, ELECTRONJS, MYSQL,MSSQL, JAVASCRIPT, REDUX, HTML, CSS, JQUERY, MUI, BOOSTRAP, ELECTRONJS, MONGODB  ]
+        job_details: 'Full Stack Deveper',
+        job_techs: [REACT, ELECTRONJS, MYSQL,MSSQL, JAVASCRIPT, REDUX, HTML, CSS, JQUERY, MUI, MONGODB  ]
     },
     {
         year_start: 2013,
@@ -76,7 +84,8 @@ const jobHistory:IJobHistory[] = [
         company: 'Sportclub',
         job_details: 'SysAdmin, Networking, Infraestructura',
         job_techs: [NGINX,MIKROTIK, FORTIGATE, WINDOWSSERVER, UBUNTUSERVER  ]
-    }
+    },
+   
 
 
 
